@@ -1,0 +1,845 @@
+<?xml version ="1.0" encoding = "UTF-8" ?>
+<XPDMXML schemaVersion="2" xmlns="http://www.3ds.com/xsd/XPDMXML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.3ds.com/xsd/XPDMXML XPDMXML.xsd">
+  <InfoHeader>
+    <Info name="WithProcess" value="Yes"/>
+    <Info name="CompletionType" value="Expand=-1"/>
+    <Info name="WithoutMapping" value="Yes"/>
+    <Info name="WithAlternateReference" value="No"/>
+    <Info name="FileFormat2D" value="STEP"/>
+    <Info name="WithFiles" value="Yes"/>
+    <Info name="WithDocuments" value="No"/>
+    <Info name="FilterXPDMOwnedObjects" value="No"/>
+    <Info name="WithPLMParams" value="No"/>
+    <Info name="FileFormat3D" value="STEP"/>
+    <Info name="GeometryType3D" value="Exact"/>
+    <Info name="SourceObjectRef" value="ID_0"/>
+  </InfoHeader>
+  <ProductStructure rootRefs="ID_0" updateParameterRelationMode="IgnoreExistingNotProvided">
+    <Product id="ID_0" mappingType="TSLA_WorkModule">
+      <ID>MOD-00060677</ID>
+      <Name>MODULE, SIDE LAMP STEP BRACKET, EVEREST</Name>
+      <Description>.</Description>
+      <UniqueID External="3ECD6D6CFB65DB9B0404657466C8C8A804435137" XID="3ECD6D6CFB65DB9B0404657466C8C8A804435137"/>
+      <RevisionName>A</RevisionName>
+      <RevisionIndex>1</RevisionIndex>
+      <RevisionFamily>F761D7970000617062C4C4A4003F4D33</RevisionFamily>
+      <Maturity>IN_WORK</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-07-05T23:10:15.0Z</TimeCreated>
+      <TimeModified>2022-10-18T22:05:35.0Z</TimeModified>
+      <Owner>kgreen</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Properties name="TSLA_DE_DesignQualification">
+        <Property name="TSLA_CADMaturity" type="string">
+          <Value>CP0</Value>
+        </Property>
+      </Properties>
+      <Properties name="TSLA_DE_IDENTIFICATION">
+        <Property name="TSLA_CA" type="string"/>
+        <Property name="TSLA_CA_STATE" type="string"/>
+        <Property name="TSLA_IsPassThrough" type="string">
+          <Value>False</Value>
+        </Property>
+        <Property name="TSLA_PART_NUMBER" type="string">
+          <Value>MOD-00060677-A</Value>
+        </Property>
+        <Property name="TSLA_PrimaryItemStatus" type="string">
+          <Value>Primary</Value>
+        </Property>
+        <Property name="TSLA_ServiceReplaceable" type="boolean">
+          <Value>false</Value>
+        </Property>
+      </Properties>
+    </Product>
+    <Fastener diameter="0" id="ID_1" type="Fst_SpotAssy_Bolt!CL0">
+      <ID>SASY-00003207</ID>
+      <Name>BOLT&amp;WSHR,HX,M6x12,[8.8] G1009,PC</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C8983EF850404402464C318B604075D5B" XID="3ECD6D6C8983EF850404402464C318B604075D5B"/>
+      <RevisionName>A</RevisionName>
+      <RevisionIndex>1</RevisionIndex>
+      <RevisionFamily>857FEB8100003C2060BF14B200035957</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2021-06-08T06:59:58.0Z</TimeCreated>
+      <TimeModified>2022-04-29T14:02:56.0Z</TimeModified>
+      <Owner>wenhaozhang</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignStandardCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Properties name="TSLA_DE_IDENTIFICATION">
+        <Property name="TSLA_CA" type="string">
+          <Value>CA-00043584</Value>
+        </Property>
+        <Property name="TSLA_CA_STATE" type="string">
+          <Value>Complete</Value>
+        </Property>
+        <Property name="TSLA_IsPassThrough" type="string">
+          <Value>True</Value>
+        </Property>
+        <Property name="TSLA_PART_NUMBER" type="string">
+          <Value>SASY-00003207-A</Value>
+        </Property>
+        <Property name="TSLA_PrimaryItemStatus" type="string">
+          <Value>Not Applicable</Value>
+        </Property>
+        <Property name="TSLA_ServiceReplaceable" type="boolean">
+          <Value>false</Value>
+        </Property>
+      </Properties>
+      <Properties name="TSLA_DE_Quality">
+        <Property name="TSLA_PartTraceability" type="string">
+          <Value>C</Value>
+        </Property>
+      </Properties>
+      <Properties name="TSLA_DE_SupplyChain">
+        <Property name="TSLA_MakeBuy" type="string">
+          <Value>Purchased</Value>
+        </Property>
+      </Properties>
+    </Fastener>
+    <Product id="ID_2" mappingType="DefaultCustomization" productType="3DPart">
+      <ID>1060685-00</ID>
+      <Name>BOLT&amp;WSHR,HX,M6x12,[8.8] G1009,PC</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C5AB617AA040401D0635AB8CB0404C72E" XID="3ECD6D6C5AB617AA040401D0635AB8CB0404C72E"/>
+      <RevisionName>C</RevisionName>
+      <RevisionIndex>3</RevisionIndex>
+      <RevisionFamily>56B213A60000FECC5F56B4A50000A1D0</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2020-09-07T22:31:42.0Z</TimeCreated>
+      <TimeModified>2023-02-02T14:32:20.0Z</TimeModified>
+      <Owner>twinBot</Owner>
+      <Organization>Tesla</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Property name="Material" type="string">
+        <Value>Steel (fasteners)</Value>
+      </Property>
+      <Property name="MinorVersion" type="string">
+        <Value>1</Value>
+      </Property>
+      <Property name="Revision" type="string">
+        <Value>C.1</Value>
+      </Property>
+      <Property name="Tesla_Part_Number" type="string">
+        <Value>1060685-00-C</Value>
+      </Property>
+      <Property name="VersionComment" type="string">
+        <Value>01.0</Value>
+      </Property>
+    </Product>
+    <Product id="ID_3" mappingType="DefaultCustomization" productType="3DPart">
+      <ID>1901718-00</ID>
+      <Name>LAMP STEP BRACKET LH</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C7FC941690B040404679392A1040D46EE" XID="3ECD6D6C7FC941690B040404679392A1040D46EE"/>
+      <RevisionName>B</RevisionName>
+      <RevisionIndex>2</RevisionIndex>
+      <RevisionFamily>17366DC0000043C4636D80B1002F88B6</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-12-06T18:49:01.0Z</TimeCreated>
+      <TimeModified>2023-01-09T19:13:56.0Z</TimeModified>
+      <Owner>sanflee</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Property name="Material" type="string"/>
+      <Property name="MinorVersion" type="string">
+        <Value>1</Value>
+      </Property>
+      <Property name="Revision" type="string">
+        <Value>B.1</Value>
+      </Property>
+      <Property name="Tesla_Part_Number" type="string">
+        <Value>1901718-00-B</Value>
+      </Property>
+      <Property name="VersionComment" type="string"/>
+    </Product>
+    <Product id="ID_4" mappingType="DefaultCustomization" productType="3DPart">
+      <ID>1901719-00</ID>
+      <Name>LAMP STEP BRACKET RH</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C7FC941690B0404046793936C041CF834" XID="3ECD6D6C7FC941690B0404046793936C041CF834"/>
+      <RevisionName>B</RevisionName>
+      <RevisionIndex>2</RevisionIndex>
+      <RevisionFamily>17366DC0000043C4636D934700947FA8</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-12-06T18:52:24.0Z</TimeCreated>
+      <TimeModified>2023-01-09T19:13:56.0Z</TimeModified>
+      <Owner>sanflee</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Property name="Material" type="string"/>
+      <Property name="MinorVersion" type="string">
+        <Value>1</Value>
+      </Property>
+      <Property name="Revision" type="string">
+        <Value>B.1</Value>
+      </Property>
+      <Property name="Tesla_Part_Number" type="string">
+        <Value>1901719-00-B</Value>
+      </Property>
+      <Property name="VersionComment" type="string"/>
+    </Product>
+    <Product id="ID_5" mappingType="DefaultCustomization" productType="3DPart">
+      <ID>1850195-00</ID>
+      <Name>LAMP PROTECTION BRKT LH</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C865BDB200404628866BA21600665411B" XID="3ECD6D6C865BDB200404628866BA21600665411B"/>
+      <RevisionName>A</RevisionName>
+      <RevisionIndex>1</RevisionIndex>
+      <RevisionFamily>8257D71C00005E8462B61D5C02613D17</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-06-24T20:26:01.0Z</TimeCreated>
+      <TimeModified>2022-09-09T23:31:48.0Z</TimeModified>
+      <Owner>tlai</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Property name="Material" type="string">
+        <Value>Grade CR-420-480-LA-S-GI60/60-U per TM-2011 [Steel]</Value>
+      </Property>
+      <Property name="MinorVersion" type="string">
+        <Value>1</Value>
+      </Property>
+      <Property name="Revision" type="string">
+        <Value>A.1</Value>
+      </Property>
+      <Property name="Tesla_Part_Number" type="string">
+        <Value>1850195-00-A</Value>
+      </Property>
+      <Property name="VersionComment" type="string"/>
+    </Product>
+    <Product id="ID_6" mappingType="DefaultCustomization" productType="3DPart">
+      <ID>1850196-00</ID>
+      <Name>LAMP PROTECTION BRKT RH</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C865BDB200404628866BA216F066544BD" XID="3ECD6D6C865BDB200404628866BA216F066544BD"/>
+      <RevisionName>A</RevisionName>
+      <RevisionIndex>1</RevisionIndex>
+      <RevisionFamily>8257D71C00005E8462B61D6B026140B9</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-06-24T20:26:01.0Z</TimeCreated>
+      <TimeModified>2022-09-09T23:31:48.0Z</TimeModified>
+      <Owner>tlai</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Property name="Material" type="string">
+        <Value>Grade CR-420-480-LA-S-GI60/60-U per TM-2011 [Steel]</Value>
+      </Property>
+      <Property name="MinorVersion" type="string">
+        <Value>1</Value>
+      </Property>
+      <Property name="Revision" type="string">
+        <Value>A.1</Value>
+      </Property>
+      <Property name="Tesla_Part_Number" type="string">
+        <Value>1850196-00-A</Value>
+      </Property>
+      <Property name="VersionComment" type="string"/>
+    </Product>
+    <Product id="ID_7" mappingType="DefaultCustomization" productType="3DPart">
+      <ID>1850196-00</ID>
+      <Name>LAMP PROTECTION BRKT RH</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6CF8E32AAC0B040404D0D91367D1630604" XID="3ECD6D6CF8E32AAC0B040404D0D91367D1630604"/>
+      <RevisionName>B</RevisionName>
+      <RevisionIndex>2</RevisionIndex>
+      <RevisionFamily>8257D71C00005E8462B61D6B026140B9</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-08-31T21:42:37.0Z</TimeCreated>
+      <TimeModified>2022-09-07T17:54:43.0Z</TimeModified>
+      <Owner>tlai</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Property name="Material" type="string">
+        <Value>Grade CR-420-480-LA-S-GI60/60-U per TM-2011 [Steel]</Value>
+      </Property>
+      <Property name="MinorVersion" type="string">
+        <Value>1</Value>
+      </Property>
+      <Property name="Revision" type="string">
+        <Value>B.1</Value>
+      </Property>
+      <Property name="Tesla_Part_Number" type="string">
+        <Value>1850196-00-B</Value>
+      </Property>
+      <Property name="VersionComment" type="string"/>
+    </Product>
+    <Product id="ID_8" mappingType="DefaultCustomization" productType="3DPart">
+      <ID>1850195-00</ID>
+      <Name>LAMP PROTECTION BRKT LH</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6CF8E32AAC0B040404D0D91367794B0A04" XID="3ECD6D6CF8E32AAC0B040404D0D91367794B0A04"/>
+      <RevisionName>B</RevisionName>
+      <RevisionIndex>2</RevisionIndex>
+      <RevisionFamily>8257D71C00005E8462B61D5C02613D17</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-08-31T21:42:37.0Z</TimeCreated>
+      <TimeModified>2022-09-07T17:54:43.0Z</TimeModified>
+      <Owner>tlai</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Property name="Material" type="string">
+        <Value>Grade CR-420-480-LA-S-GI60/60-U per TM-2011 [Steel]</Value>
+      </Property>
+      <Property name="MinorVersion" type="string">
+        <Value>1</Value>
+      </Property>
+      <Property name="Revision" type="string">
+        <Value>B.1</Value>
+      </Property>
+      <Property name="Tesla_Part_Number" type="string">
+        <Value>1850195-00-B</Value>
+      </Property>
+      <Property name="VersionComment" type="string"/>
+    </Product>
+    <FastenerInst id="ID_9">
+      <ID>BOLT&amp;WSHR,HX,M6x12,[8.8] G1009,PC.5</ID>
+      <Name></Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C865BDB20040559506772D5B005EEC57C" XID="3ECD6D6C865BDB20040559506772D5B005EEC57C"/>
+      <RevisionFamily>855ADA1F0304584F6671D4AF04EDC47B</RevisionFamily>
+      <TimeCreated>2022-11-11T22:54:52.0Z</TimeCreated>
+      <TimeModified>2022-12-06T20:44:45.0Z</TimeModified>
+      <Owner>tlai</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Properties name="TSLA_CustoJoint_FastnerInstance">
+        <Property name="TSLA_Increment_JointID" type="string">
+          <Value>True</Value>
+        </Property>
+        <Property name="TSLA_JointID" type="string">
+          <Value>JNT-0113082-A1</Value>
+        </Property>
+      </Properties>
+      <Properties name="TSLA_FastenerDesDeployment_VPMInstance">
+        <Property name="TSLA_FastenerType" type="string">
+          <Value>Fst_SpotAssy_Bolt!CL0</Value>
+        </Property>
+        <Property name="TSLA_Max_Clamp_Load_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Max_Dynamic_Torque_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Max_Manual_Wrench_Torque_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Min_Clamp_Load_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Min_Dynamic_Torque_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Min_Manual_Wrench_Torque_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Residual_Torque_Minimum_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_TorqueCriticality" type="string"/>
+      </Properties>
+      <Properties name="TSLA_FastenerMfgDeployment_PLMCoreInstance">
+        <Property name="TSLA_Final_Speed_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Initial_Torque_Target_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Max_Dynamic_Angle_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Min_Dynamic_Angle_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Run_Down_Speed_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_TypeOfControl" type="string"/>
+      </Properties>
+      <Owned>ID_0</Owned>
+      <Instancing>ID_1</Instancing>
+      <ChildOrder>537378620.1566449</ChildOrder>
+      <RelativePosition>
+        <Rotation3D>0.005205223932602181 -0.9999727604677621 0.005232969166182651 -0.988062704222707 -0.004337374750981181 0.153991167618088 -0.153964275622379 -0.0059720601765475 -0.9880583668636811</Rotation3D>
+        <Translation3D>5.55821483125479 -0.8140448215132471 2.09449472374704</Translation3D>
+      </RelativePosition>
+    </FastenerInst>
+    <FastenerInst id="ID_10">
+      <ID>BOLT&amp;WSHR,HX,M6x12,[8.8] G1009,PC.7</ID>
+      <Name></Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C865BDB20040559506772D5DF05EED147" XID="3ECD6D6C865BDB20040559506772D5DF05EED147"/>
+      <RevisionFamily>855ADA1F0304584F6671D4DE04EDD046</RevisionFamily>
+      <TimeCreated>2022-11-11T22:54:52.0Z</TimeCreated>
+      <TimeModified>2022-12-06T20:44:45.0Z</TimeModified>
+      <Owner>tlai</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Properties name="TSLA_CustoJoint_FastnerInstance">
+        <Property name="TSLA_Increment_JointID" type="string">
+          <Value>True</Value>
+        </Property>
+        <Property name="TSLA_JointID" type="string">
+          <Value>JNT-0113084-A1</Value>
+        </Property>
+      </Properties>
+      <Properties name="TSLA_FastenerDesDeployment_VPMInstance">
+        <Property name="TSLA_FastenerType" type="string">
+          <Value>Fst_SpotAssy_Bolt!CL0</Value>
+        </Property>
+        <Property name="TSLA_Max_Clamp_Load_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Max_Dynamic_Torque_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Max_Manual_Wrench_Torque_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Min_Clamp_Load_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Min_Dynamic_Torque_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Min_Manual_Wrench_Torque_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Residual_Torque_Minimum_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_TorqueCriticality" type="string"/>
+      </Properties>
+      <Properties name="TSLA_FastenerMfgDeployment_PLMCoreInstance">
+        <Property name="TSLA_Final_Speed_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Initial_Torque_Target_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Max_Dynamic_Angle_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Min_Dynamic_Angle_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_Run_Down_Speed_Unit" type="double">
+          <Value>0</Value>
+        </Property>
+        <Property name="TSLA_TypeOfControl" type="string"/>
+      </Properties>
+      <Owned>ID_0</Owned>
+      <Instancing>ID_1</Instancing>
+      <ChildOrder>537378667.350551</ChildOrder>
+      <RelativePosition>
+        <Rotation3D>-0.00514460327998421 0.9999633342219471 0.00684567519063408 0.9880630222223621 0.00613715771733349 -0.153927903292302 -0.153964272394291 0.0059720605218519 -0.9880583673646111</Rotation3D>
+        <Translation3D>5.558214683322 0.8140448383725981 2.09449460078893</Translation3D>
+      </RelativePosition>
+    </FastenerInst>
+    <ProductInst id="ID_11" mappingType="DefaultCustomization">
+      <ID>BOLT&amp;WSHR,HX,M6x12,[8.8] G1009,PC.2</ID>
+      <Name></Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C8983EF850404402464C318E804076EC9" XID="3ECD6D6C8983EF850404402464C318E804076EC9"/>
+      <RevisionFamily>8882EE8403033F2363C217E703066DC8</RevisionFamily>
+      <TimeCreated>2021-06-08T06:59:58.0Z</TimeCreated>
+      <TimeModified>2021-10-20T06:33:47.0Z</TimeModified>
+      <Owner>wenhaozhang</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignStandardCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Owned>ID_1</Owned>
+      <Instancing>ID_2</Instancing>
+      <ChildOrder>492361060.2983209</ChildOrder>
+      <RelativeTransformation3D>
+        <Rotation3D>-1 0 1.22464679914735e-16 0 1 0 -1.22464679914735e-16 0 -1</Rotation3D>
+        <Translation3D>0 0 0</Translation3D>
+      </RelativeTransformation3D>
+    </ProductInst>
+    <Rep3DAggr id="ID_12" mappingType="DefaultCustomization">
+      <ID>1060685-00</ID>
+      <Name>BOLT&amp;WSHR,HX,M6x12,[8.8] G1009,PC</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C5AB617AA040401D0635AB8CB0404C736" XID="3ECD6D6C5AB617AA040401D0635AB8CB0404C736"/>
+      <RevisionName>C</RevisionName>
+      <RevisionIndex>3</RevisionIndex>
+      <RevisionFamily>56B213A60000FECC5F56B4A50000A1D4</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2020-09-07T22:31:42.0Z</TimeCreated>
+      <TimeModified>2023-02-02T14:33:49.0Z</TimeModified>
+      <Owner>twinBot</Owner>
+      <Organization>Tesla</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Property name="VersionComment" type="string"/>
+      <Owned>ID_2</Owned>
+      <FileRef>ID_13</FileRef>
+    </Rep3DAggr>
+    <ProductInst id="ID_14" mappingType="DefaultCustomization">
+      <ID>LAMP PROTECTION BRKT LH.11</ID>
+      <Name></Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C865BDB200404277C6793AD2C056511D8" XID="3ECD6D6C865BDB200404277C6793AD2C056511D8"/>
+      <RevisionFamily>598DA1D00303261365DA4EB303753037</RevisionFamily>
+      <TimeCreated>2022-12-06T20:42:26.0Z</TimeCreated>
+      <TimeModified>2022-12-06T20:42:26.0Z</TimeModified>
+      <Owner>tlai</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Owned>ID_0</Owned>
+      <Instancing>ID_3</Instancing>
+      <ChildOrder>527448384.104179</ChildOrder>
+      <RelativeTransformation3D>
+        <Rotation3D>1 0 0 0 1 0 0 0 1</Rotation3D>
+        <Translation3D>0 0 0</Translation3D>
+      </RelativeTransformation3D>
+    </ProductInst>
+    <Rep3DAggr id="ID_15" mappingType="DefaultCustomization">
+      <ID>PSH-05197683</ID>
+      <Name>Part Shape 05197683</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C7FC941690B040404679392A104077E48" XID="3ECD6D6C7FC941690B040404679392A104077E48"/>
+      <RevisionName>B</RevisionName>
+      <RevisionIndex>2</RevisionIndex>
+      <RevisionFamily>17366DC0000043C4636D80B1002F88B8</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-12-06T18:49:01.0Z</TimeCreated>
+      <TimeModified>2023-01-09T19:13:56.0Z</TimeModified>
+      <Owner>sanflee</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Property name="VersionComment" type="string"/>
+      <Owned>ID_3</Owned>
+      <FileRef>ID_16</FileRef>
+    </Rep3DAggr>
+    <ProductInst id="ID_17" mappingType="DefaultCustomization">
+      <ID>LAMP PROTECTION BRKT RH.10</ID>
+      <Name></Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C865BDB200404277C6793AD2C05651245" XID="3ECD6D6C865BDB200404277C6793AD2C05651245"/>
+      <RevisionFamily>598DA1D00303261365DA4E7F03752BCE</RevisionFamily>
+      <TimeCreated>2022-12-06T20:42:26.0Z</TimeCreated>
+      <TimeModified>2022-12-06T20:42:26.0Z</TimeModified>
+      <Owner>tlai</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Owned>ID_0</Owned>
+      <Instancing>ID_4</Instancing>
+      <ChildOrder>527448332.868179</ChildOrder>
+      <RelativeTransformation3D>
+        <Rotation3D>1 0 0 0 1 0 0 0 1</Rotation3D>
+        <Translation3D>0 0 0</Translation3D>
+      </RelativeTransformation3D>
+    </ProductInst>
+    <Rep3DAggr id="ID_18" mappingType="DefaultCustomization">
+      <ID>PSH-05197684</ID>
+      <Name>Part Shape 05197684</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C7FC941690B0404046793936C04170168" XID="3ECD6D6C7FC941690B0404046793936C04170168"/>
+      <RevisionName>B</RevisionName>
+      <RevisionIndex>2</RevisionIndex>
+      <RevisionFamily>17366DC0000043C4636D934700947FAA</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-12-06T18:52:24.0Z</TimeCreated>
+      <TimeModified>2023-01-09T19:13:56.0Z</TimeModified>
+      <Owner>sanflee</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Property name="VersionComment" type="string"/>
+      <Owned>ID_4</Owned>
+      <FileRef>ID_19</FileRef>
+    </Rep3DAggr>
+    <ProductInst id="ID_20" mappingType="DefaultCustomization">
+      <ID>LAMP PROTECTION BRKT LH.11</ID>
+      <Name></Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C5A8EA2D10404271466DB4FB404763138" XID="3ECD6D6C5A8EA2D10404271466DB4FB404763138"/>
+      <RevisionFamily>598DA1D00303261365DA4EB303753037</RevisionFamily>
+      <TimeCreated>2022-07-20T00:24:57.0Z</TimeCreated>
+      <TimeModified>2022-09-02T15:57:10.0Z</TimeModified>
+      <Owner>alsampson</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Owned>ID_0</Owned>
+      <Instancing>ID_5</Instancing>
+      <ChildOrder>527448384.104179</ChildOrder>
+      <RelativeTransformation3D>
+        <Rotation3D>1 0 0 0 1 0 0 0 1</Rotation3D>
+        <Translation3D>0 0 0</Translation3D>
+      </RelativeTransformation3D>
+    </ProductInst>
+    <Rep3DAggr id="ID_21" mappingType="DefaultCustomization">
+      <ID>PSH-04359625</ID>
+      <Name>Part Shape 04359625</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C865BDB200404628866BA21600665411D" XID="3ECD6D6C865BDB200404628866BA21600665411D"/>
+      <RevisionName>A</RevisionName>
+      <RevisionIndex>1</RevisionIndex>
+      <RevisionFamily>8257D71C00005E8462B61D5C02613D19</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-06-24T20:26:01.0Z</TimeCreated>
+      <TimeModified>2022-08-31T21:57:47.0Z</TimeModified>
+      <Owner>tlai</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Property name="VersionComment" type="string"/>
+      <Owned>ID_5</Owned>
+      <FileRef>ID_22</FileRef>
+    </Rep3DAggr>
+    <ProductInst id="ID_23" mappingType="DefaultCustomization">
+      <ID>LAMP PROTECTION BRKT RH.10</ID>
+      <Name></Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C5A8EA2D10404271466DB4F8004762CCF" XID="3ECD6D6C5A8EA2D10404271466DB4F8004762CCF"/>
+      <RevisionFamily>598DA1D00303261365DA4E7F03752BCE</RevisionFamily>
+      <TimeCreated>2022-07-20T00:24:56.0Z</TimeCreated>
+      <TimeModified>2022-09-02T15:57:10.0Z</TimeModified>
+      <Owner>alsampson</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Owned>ID_0</Owned>
+      <Instancing>ID_6</Instancing>
+      <ChildOrder>527448332.868179</ChildOrder>
+      <RelativeTransformation3D>
+        <Rotation3D>1 0 0 0 1 0 0 0 1</Rotation3D>
+        <Translation3D>0 0 0</Translation3D>
+      </RelativeTransformation3D>
+    </ProductInst>
+    <Rep3DAggr id="ID_24" mappingType="DefaultCustomization">
+      <ID>PSH-04359626</ID>
+      <Name>Part Shape 04359626</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C865BDB200404628866BA216F066544BF" XID="3ECD6D6C865BDB200404628866BA216F066544BF"/>
+      <RevisionName>A</RevisionName>
+      <RevisionIndex>1</RevisionIndex>
+      <RevisionFamily>8257D71C00005E8462B61D6B026140BB</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-06-24T20:26:01.0Z</TimeCreated>
+      <TimeModified>2022-08-31T21:57:47.0Z</TimeModified>
+      <Owner>tlai</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Property name="VersionComment" type="string"/>
+      <Owned>ID_6</Owned>
+      <FileRef>ID_25</FileRef>
+    </Rep3DAggr>
+    <ProductInst id="ID_26" mappingType="DefaultCustomization">
+      <ID>LAMP PROTECTION BRKT RH.10</ID>
+      <Name></Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C865BDB200404AE7C6713DE1A05A20727" XID="3ECD6D6C865BDB200404AE7C6713DE1A05A20727"/>
+      <RevisionFamily>598DA1D00303261365DA4E7F03752BCE</RevisionFamily>
+      <TimeCreated>2022-08-31T22:01:01.0Z</TimeCreated>
+      <TimeModified>2022-11-11T17:48:59.0Z</TimeModified>
+      <Owner>tlai</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Owned>ID_0</Owned>
+      <Instancing>ID_7</Instancing>
+      <ChildOrder>527448332.868179</ChildOrder>
+      <RelativeTransformation3D>
+        <Rotation3D>1 0 0 0 1 0 0 0 1</Rotation3D>
+        <Translation3D>0 0 0</Translation3D>
+      </RelativeTransformation3D>
+    </ProductInst>
+    <Rep3DAggr id="ID_27" mappingType="DefaultCustomization">
+      <ID>PSH-04359626</ID>
+      <Name>Part Shape 04359626</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6CF8E32AAC0B040404CFD913678CCB0804" XID="3ECD6D6CF8E32AAC0B040404CFD913678CCB0804"/>
+      <RevisionName>B</RevisionName>
+      <RevisionIndex>2</RevisionIndex>
+      <RevisionFamily>8257D71C00005E8462B61D6B026140BB</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-08-31T21:42:36.0Z</TimeCreated>
+      <TimeModified>2022-09-02T15:57:15.0Z</TimeModified>
+      <Owner>tlai</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Property name="VersionComment" type="string"/>
+      <Owned>ID_7</Owned>
+      <FileRef>ID_28</FileRef>
+    </Rep3DAggr>
+    <ProductInst id="ID_29" mappingType="DefaultCustomization">
+      <ID>LAMP PROTECTION BRKT LH.11</ID>
+      <Name></Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C865BDB200404AE7C6713DE1A05A20719" XID="3ECD6D6C865BDB200404AE7C6713DE1A05A20719"/>
+      <RevisionFamily>598DA1D00303261365DA4EB303753037</RevisionFamily>
+      <TimeCreated>2022-08-31T22:01:00.0Z</TimeCreated>
+      <TimeModified>2022-11-11T17:48:59.0Z</TimeModified>
+      <Owner>tlai</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Owned>ID_0</Owned>
+      <Instancing>ID_8</Instancing>
+      <ChildOrder>527448384.104179</ChildOrder>
+      <RelativeTransformation3D>
+        <Rotation3D>1 0 0 0 1 0 0 0 1</Rotation3D>
+        <Translation3D>0 0 0</Translation3D>
+      </RelativeTransformation3D>
+    </ProductInst>
+    <Rep3DAggr id="ID_30" mappingType="DefaultCustomization">
+      <ID>PSH-04359625</ID>
+      <Name>Part Shape 04359625</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6CF8E32AAC0B040404D0D91367D7B10504" XID="3ECD6D6CF8E32AAC0B040404D0D91367D7B10504"/>
+      <RevisionName>B</RevisionName>
+      <RevisionIndex>2</RevisionIndex>
+      <RevisionFamily>8257D71C00005E8462B61D5C02613D19</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-08-31T21:42:37.0Z</TimeCreated>
+      <TimeModified>2022-09-02T15:57:15.0Z</TimeModified>
+      <Owner>tlai</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Property name="VersionComment" type="string"/>
+      <Owned>ID_8</Owned>
+      <FileRef>ID_31</FileRef>
+    </Rep3DAggr>
+    <DrawingAggr id="ID_32">
+      <ID>1060685-00</ID>
+      <Name></Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C5AB6081E040457286579659C0404D129" XID="3ECD6D6C5AB6081E040457286579659C0404D129"/>
+      <RevisionName>C</RevisionName>
+      <RevisionIndex>3</RevisionIndex>
+      <RevisionFamily>56B2041A000053246175618D0000A3B1</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2021-10-24T13:37:29.0Z</TimeCreated>
+      <TimeModified>2021-10-24T13:46:55.0Z</TimeModified>
+      <Owner>twinBot</Owner>
+      <Organization>Tesla</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Owned>ID_2</Owned>
+      <FileRef>ID_33</FileRef>
+    </DrawingAggr>
+    <DrawingAggr id="ID_34">
+      <ID>DRW-00230276</ID>
+      <Name>Drawing00230276</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C7FC941690B0404046793936D040C680E" XID="3ECD6D6C7FC941690B0404046793936D040C680E"/>
+      <RevisionName>B</RevisionName>
+      <RevisionIndex>2</RevisionIndex>
+      <RevisionFamily>17366DC0000043C4636D9C6300AD86E5</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-12-06T18:52:25.0Z</TimeCreated>
+      <TimeModified>2023-01-09T19:13:56.0Z</TimeModified>
+      <Owner>sanflee</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Owned>ID_4</Owned>
+      <FileRef>ID_35</FileRef>
+    </DrawingAggr>
+    <DrawingAggr id="ID_36">
+      <ID>DRW-00230275</ID>
+      <Name>Drawing00230275</Name>
+      <Description></Description>
+      <UniqueID External="3ECD6D6C7FC941690B040404679392A1041C3F10" XID="3ECD6D6C7FC941690B040404679392A1041C3F10"/>
+      <RevisionName>B</RevisionName>
+      <RevisionIndex>2</RevisionIndex>
+      <RevisionFamily>17366DC0000043C4636D8317003D4989</RevisionFamily>
+      <Maturity>RELEASED</Maturity>
+      <Lifecycle>VPLM_SMB_Definition</Lifecycle>
+      <TimeCreated>2022-12-06T18:49:01.0Z</TimeCreated>
+      <TimeModified>2023-01-09T19:13:56.0Z</TimeModified>
+      <Owner>sanflee</Owner>
+      <Organization>Engineering</Organization>
+      <Project>DesignEngineeringCS</Project>
+      <SecurityLevel>0</SecurityLevel>
+      <Owned>ID_3</Owned>
+      <FileRef>ID_37</FileRef>
+    </DrawingAggr>
+  </ProductStructure>
+  <File id="ID_13">
+    <Name>1060685-00_1_d9bb19dd_1f1c_63f54449_10b7d.stp</Name>
+    <Location>1060685-00_1_d9bb19dd_1f1c_63f54449_10b7d.stp</Location>
+    <Format geometryType="exact">STEP</Format>
+  </File>
+  <File id="ID_16">
+    <Name>PSH-05197683_1_d9bb19dd_1f1c_63f54449_10bb1.stp</Name>
+    <Location>PSH-05197683_1_d9bb19dd_1f1c_63f54449_10bb1.stp</Location>
+    <Format geometryType="exact">STEP</Format>
+  </File>
+  <File id="ID_19">
+    <Name>PSH-05197684_1_d9bb19dd_1f1c_63f54449_10be5.stp</Name>
+    <Location>PSH-05197684_1_d9bb19dd_1f1c_63f54449_10be5.stp</Location>
+    <Format geometryType="exact">STEP</Format>
+  </File>
+  <File id="ID_22">
+    <Name>PSH-04359625_1_d9bb19dd_1f1c_63f54449_10c17.stp</Name>
+    <Location>PSH-04359625_1_d9bb19dd_1f1c_63f54449_10c17.stp</Location>
+    <Format geometryType="exact">STEP</Format>
+  </File>
+  <File id="ID_25">
+    <Name>PSH-04359626_1_d9bb19dd_1f1c_63f54449_10c3e.stp</Name>
+    <Location>PSH-04359626_1_d9bb19dd_1f1c_63f54449_10c3e.stp</Location>
+    <Format geometryType="exact">STEP</Format>
+  </File>
+  <File id="ID_28">
+    <Name>PSH-04359626_1_d9bb19dd_1f1c_63f54449_10c67.stp</Name>
+    <Location>PSH-04359626_1_d9bb19dd_1f1c_63f54449_10c67.stp</Location>
+    <Format geometryType="exact">STEP</Format>
+  </File>
+  <File id="ID_31">
+    <Name>PSH-04359625_1_d9bb19dd_1f1c_63f54449_10c90.stp</Name>
+    <Location>PSH-04359625_1_d9bb19dd_1f1c_63f54449_10c90.stp</Location>
+    <Format geometryType="exact">STEP</Format>
+  </File>
+  <File id="ID_33">
+    <Name>1060685-00_1_d9bb19dd_1f1c_63f54448_10b22.CATDrawing</Name>
+    <Location>1060685-00_1_d9bb19dd_1f1c_63f54448_10b22.CATDrawing</Location>
+    <Format>CATDrawing</Format>
+  </File>
+  <File id="ID_35">
+    <Name>DRW-00230276_1_d9bb19dd_1f1c_63f54448_10b36.CATDrawing</Name>
+    <Location>DRW-00230276_1_d9bb19dd_1f1c_63f54448_10b36.CATDrawing</Location>
+    <Format>CATDrawing</Format>
+  </File>
+  <File id="ID_37">
+    <Name>DRW-00230275_1_d9bb19dd_1f1c_63f54448_10b2c.CATDrawing</Name>
+    <Location>DRW-00230275_1_d9bb19dd_1f1c_63f54448_10b2c.CATDrawing</Location>
+    <Format>CATDrawing</Format>
+  </File>
+</XPDMXML>

@@ -1,0 +1,146 @@
+{
+  "ID_23": {
+    "ID_6": {
+      "Description": "",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "A.1",
+      "ID": "1850196-00",
+      "Name": "LAMP PROTECTION BRKT RH"
+    },
+    "ID_0": {
+      "Description": ".",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "A.1",
+      "ID": "MOD-00060677",
+      "Name": "MODULE, SIDE LAMP STEP BRACKET, EVEREST"
+    }
+  },
+  "ID_11": {
+    "ID_2": {
+      "Description": "",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "C.3",
+      "ID": "1060685-00",
+      "Name": "BOLT\u0026WSHR,HX,M6x12,[8.8] G1009,PC"
+    },
+    "ID_1": {
+      "Description": "",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "A.1",
+      "ID": "SASY-00003207",
+      "Name": "BOLT\u0026WSHR,HX,M6x12,[8.8] G1009,PC"
+    }
+  },
+  "ID_14": {
+    "ID_3": {
+      "Description": "",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "B.2",
+      "ID": "1901718-00",
+      "Name": "LAMP STEP BRACKET LH"
+    },
+    "ID_0": {
+      "Description": ".",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "A.1",
+      "ID": "MOD-00060677",
+      "Name": "MODULE, SIDE LAMP STEP BRACKET, EVEREST"
+    }
+  },
+  "ID_10": {
+    "ID_0": {
+      "Description": ".",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "A.1",
+      "ID": "MOD-00060677",
+      "Name": "MODULE, SIDE LAMP STEP BRACKET, EVEREST"
+    },
+    "ID_1": {
+      "Description": "",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "A.1",
+      "ID": "SASY-00003207",
+      "Name": "BOLT\u0026WSHR,HX,M6x12,[8.8] G1009,PC"
+    }
+  },
+  "ID_9": {
+    "ID_0": {
+      "Description": ".",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "A.1",
+      "ID": "MOD-00060677",
+      "Name": "MODULE, SIDE LAMP STEP BRACKET, EVEREST"
+    },
+    "ID_1": {
+      "Description": "",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "A.1",
+      "ID": "SASY-00003207",
+      "Name": "BOLT\u0026WSHR,HX,M6x12,[8.8] G1009,PC"
+    }
+  },
+  "ID_20": {
+    "ID_5": {
+      "Description": "",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "A.1",
+      "ID": "1850195-00",
+      "Name": "LAMP PROTECTION BRKT LH"
+    },
+    "ID_0": {
+      "Description": ".",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "A.1",
+      "ID": "MOD-00060677",
+      "Name": "MODULE, SIDE LAMP STEP BRACKET, EVEREST"
+    }
+  },
+  "ID_26": {
+    "ID_7": {
+      "Description": "",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "B.2",
+      "ID": "1850196-00",
+      "Name": "LAMP PROTECTION BRKT RH"
+    },
+    "ID_0": {
+      "Description": ".",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "A.1",
+      "ID": "MOD-00060677",
+      "Name": "MODULE, SIDE LAMP STEP BRACKET, EVEREST"
+    }
+  },
+  "ID_29": {
+    "ID_8": {
+      "Description": "",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "B.2",
+      "ID": "1850195-00",
+      "Name": "LAMP PROTECTION BRKT LH"
+    },
+    "ID_0": {
+      "Description": ".",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "A.1",
+      "ID": "MOD-00060677",
+      "Name": "MODULE, SIDE LAMP STEP BRACKET, EVEREST"
+    }
+  },
+  "ID_17": {
+    "ID_4": {
+      "Description": "",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "B.2",
+      "ID": "1901719-00",
+      "Name": "LAMP STEP BRACKET RH"
+    },
+    "ID_0": {
+      "Description": ".",
+      "Lifecycle": "VPLM_SMB_Definition",
+      "RevisionName": "A.1",
+      "ID": "MOD-00060677",
+      "Name": "MODULE, SIDE LAMP STEP BRACKET, EVEREST"
+    }
+  }
+}

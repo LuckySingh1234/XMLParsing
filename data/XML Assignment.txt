@@ -1,0 +1,31 @@
+
+
+Step 1) Find the Elements which have "Inst" in the suffix (For example "FastenerInst" , "ProductInst")
+
+Step 2) If the tag contains Id get the Ids and store in list (For Example <FastenerInst id="ID_10">)
+
+Step 3) If Inst tag contains <owned> or <Instancing> get the ids 
+
+example
+
+<FastenerInst ID_4>
+  
+  <Owned>ID_1</Owned>
+  <Instancing>ID_2</Instancing>
+
+<FastenerInst>
+
+Step 4) Based on the Instancing and owned id you need to proceed further , Search the owned id in which tag its present 
+
+step 5) If the id present in <Product id=ID_1> tag or <Fastener id=ID_2> tag get inside and get the respective tag values <ID>,<NAME>,<REVISION>,<LIFECYCLE>,<DESCRIPTION> what ever values inside you need to take 
+
+step 6) So the Id what we are getting in step two that respective data you should take 
+
+finally we need a map 
+
+Final Map {
+key : FastenerInst or ProductInst id1 = Value : {key : owned id = value : {Key : Name = value : Name tag inside content },{Key : Description = value : Description tag inside content },{Key : Lifecycle = value : Lifecycle tag inside content },{Key : Revision = value : Revision tag inside content },{Key : Id = value : Id tag inside content }},      
+key : FastenerInst or ProductInst id2 = Value : {key : owned id = value : {Key : Name = value : Name tag inside content },{Key : Description = value : Description tag inside content },{Key : Lifecycle = value : Lifecycle tag inside content },{Key : Revision = value : Revision tag inside content },{Key : Id = value : Id tag inside content }}
+}
+
+step7 ) In step 2 we got all the id , for all ids we need to take the respective data by following above step and get and store respectively in single final map 
